@@ -1,0 +1,121 @@
+﻿@model IEnumerable<YemekTarifi.Models.DB.Yemekler>
+
+@{
+    ViewData["Title"] = "Yemek Listesi";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>YemekTarifi</title>
+    <meta charset="utf-8">
+   
+        <title>YemekTarifi</title>
+        <meta charset="utf-8">
+        <style>
+
+
+        body {
+            background-color: #76b852;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+
+            form {
+                background-color: ghostwhite;
+                border: 1px solid dotted;
+                border-radius: 5px;
+                padding: 20px;
+   
+                margin: 20px auto;
+                max-width: 600px;
+            }
+
+            table {
+                width: 100%;
+                border-collapse: collapse;
+            }
+
+            th, td {
+                padding: 10px;
+                text-align: left;
+            }
+
+            th {
+                background-color: #333;
+                color: white;
+            }
+
+            input[type="text"],
+            textarea,
+            input[type="file"] {
+                width: 100%;
+                padding: 8px;
+                margin: 5px 0;
+                border: 1px solid #ccc;
+                border-radius: 3px;
+                box-sizing: border-box;
+            }
+
+            input[type="submit"],
+            input[type="reset"] {
+                background-color: #333;
+                color: white;
+                padding: 10px 20px;
+                border: none;
+                border-radius: 3px;
+                cursor: pointer;
+            }
+
+                input[type="submit"]:hover,
+                input[type="reset"]:hover {
+                    background-color: #555;
+                }
+
+        </style>
+    </head>
+
+    <body> 
+    
+    <form>
+        <fieldset>
+            <h2>
+                Tarif Ekleme Sayfası
+            </h2>
+       
+        <table border="1">
+            
+            <tr>
+                <td> Yemek Adı: </td>
+                    <td><input type="text" name="yemekad"  placeholder="Yemek Adını Giriniz"> </td>
+            </tr>
+                <tr>
+                    <td>Malzemeler: </td>
+                    <td><textarea cols="100" rows="7" name="malzeme" placeholder="Malzemeleri Giriniz"></textarea> </td>
+                </tr>
+             <tr>
+                    <td>Tarif : </td>
+                    <td><textarea cols="100" rows="7" name="tarif" placeholder="Tarinizi Giriniz"></textarea> </td>
+                </tr>
+
+                <tr>
+                    <td>Resim Ekle</td>
+                    <td><input type="file" name="resim" id="resim"></td>
+                </tr>
+            
+            <tr>
+                
+            </tr>
+
+                
+        
+        </table>
+        <br> </br>
+            <input type="submit" name="btnGonder" value="Gönder">
+            <input type="reset" name="btnTemizle" value="Temizle">
+        </fieldset>
+        
+    </form>
+    </body>
+</html>

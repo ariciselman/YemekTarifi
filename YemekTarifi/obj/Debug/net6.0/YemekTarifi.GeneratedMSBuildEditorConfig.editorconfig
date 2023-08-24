@@ -1,0 +1,172 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = YemekTarifi
+build_property.RootNamespace = YemekTarifi
+build_property.ProjectDir = C:\Users\Bilgisayarım\Desktop\yazılım\denemeler\YemekTarifi\YemekTarifi\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\Bilgisayarım\Desktop\yazılım\denemeler\YemekTarifi\YemekTarifi
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/Bilgisayarım/Desktop/yazılım/denemeler/YemekTarifi/YemekTarifi/Views/GununYemegis/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3VudW5ZZW1lZ2lzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Bilgisayarım/Desktop/yazılım/denemeler/YemekTarifi/YemekTarifi/Views/GununYemegis/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3VudW5ZZW1lZ2lzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Bilgisayarım/Desktop/yazılım/denemeler/YemekTarifi/YemekTarifi/Views/GununYemegis/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3VudW5ZZW1lZ2lzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Bilgisayarım/Desktop/yazılım/denemeler/YemekTarifi/YemekTarifi/Views/GununYemegis/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3VudW5ZZW1lZ2lzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Bilgisayarım/Desktop/yazılım/denemeler/YemekTarifi/YemekTarifi/Views/GununYemegis/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3VudW5ZZW1lZ2lzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Bilgisayarım/Desktop/yazılım/denemeler/YemekTarifi/YemekTarifi/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Bilgisayarım/Desktop/yazılım/denemeler/YemekTarifi/YemekTarifi/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Bilgisayarım/Desktop/yazılım/denemeler/YemekTarifi/YemekTarifi/Views/Kategorilers/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2F0ZWdvcmlsZXJzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Bilgisayarım/Desktop/yazılım/denemeler/YemekTarifi/YemekTarifi/Views/Kategorilers/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2F0ZWdvcmlsZXJzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Bilgisayarım/Desktop/yazılım/denemeler/YemekTarifi/YemekTarifi/Views/Kategorilers/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2F0ZWdvcmlsZXJzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Bilgisayarım/Desktop/yazılım/denemeler/YemekTarifi/YemekTarifi/Views/Kategorilers/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2F0ZWdvcmlsZXJzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Bilgisayarım/Desktop/yazılım/denemeler/YemekTarifi/YemekTarifi/Views/Kategorilers/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2F0ZWdvcmlsZXJzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Bilgisayarım/Desktop/yazılım/denemeler/YemekTarifi/YemekTarifi/Views/Kullanıcı/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS3VsbGFuxLFjxLFcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Bilgisayarım/Desktop/yazılım/denemeler/YemekTarifi/YemekTarifi/Views/Kullanıcı/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS3VsbGFuxLFjxLFcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Bilgisayarım/Desktop/yazılım/denemeler/YemekTarifi/YemekTarifi/Views/Kullanıcı/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS3VsbGFuxLFjxLFcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Bilgisayarım/Desktop/yazılım/denemeler/YemekTarifi/YemekTarifi/Views/Kullanıcı/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS3VsbGFuxLFjxLFcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Bilgisayarım/Desktop/yazılım/denemeler/YemekTarifi/YemekTarifi/Views/Kullanıcı/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS3VsbGFuxLFjxLFcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Bilgisayarım/Desktop/yazılım/denemeler/YemekTarifi/YemekTarifi/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Bilgisayarım/Desktop/yazılım/denemeler/YemekTarifi/YemekTarifi/Views/Shared/UyeGiris.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXFV5ZUdpcmlzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Bilgisayarım/Desktop/yazılım/denemeler/YemekTarifi/YemekTarifi/Views/Shared/_LayoutAdmin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXRBZG1pbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Bilgisayarım/Desktop/yazılım/denemeler/YemekTarifi/YemekTarifi/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Bilgisayarım/Desktop/yazılım/denemeler/YemekTarifi/YemekTarifi/Views/Yemeklers/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcWWVtZWtsZXJzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Bilgisayarım/Desktop/yazılım/denemeler/YemekTarifi/YemekTarifi/Views/Yemeklers/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcWWVtZWtsZXJzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Bilgisayarım/Desktop/yazılım/denemeler/YemekTarifi/YemekTarifi/Views/Yemeklers/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcWWVtZWtsZXJzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Bilgisayarım/Desktop/yazılım/denemeler/YemekTarifi/YemekTarifi/Views/Yemeklers/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcWWVtZWtsZXJzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Bilgisayarım/Desktop/yazılım/denemeler/YemekTarifi/YemekTarifi/Views/Yemeklers/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcWWVtZWtsZXJzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Bilgisayarım/Desktop/yazılım/denemeler/YemekTarifi/YemekTarifi/Views/Yoneticis/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcWW9uZXRpY2lzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Bilgisayarım/Desktop/yazılım/denemeler/YemekTarifi/YemekTarifi/Views/Yoneticis/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcWW9uZXRpY2lzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Bilgisayarım/Desktop/yazılım/denemeler/YemekTarifi/YemekTarifi/Views/Yoneticis/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcWW9uZXRpY2lzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Bilgisayarım/Desktop/yazılım/denemeler/YemekTarifi/YemekTarifi/Views/Yoneticis/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcWW9uZXRpY2lzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Bilgisayarım/Desktop/yazılım/denemeler/YemekTarifi/YemekTarifi/Views/Yoneticis/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcWW9uZXRpY2lzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Bilgisayarım/Desktop/yazılım/denemeler/YemekTarifi/YemekTarifi/Views/Yorumlars/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcWW9ydW1sYXJzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Bilgisayarım/Desktop/yazılım/denemeler/YemekTarifi/YemekTarifi/Views/Yorumlars/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcWW9ydW1sYXJzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Bilgisayarım/Desktop/yazılım/denemeler/YemekTarifi/YemekTarifi/Views/Yorumlars/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcWW9ydW1sYXJzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Bilgisayarım/Desktop/yazılım/denemeler/YemekTarifi/YemekTarifi/Views/Yorumlars/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcWW9ydW1sYXJzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Bilgisayarım/Desktop/yazılım/denemeler/YemekTarifi/YemekTarifi/Views/Yorumlars/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcWW9ydW1sYXJzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Bilgisayarım/Desktop/yazılım/denemeler/YemekTarifi/YemekTarifi/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Bilgisayarım/Desktop/yazılım/denemeler/YemekTarifi/YemekTarifi/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Bilgisayarım/Desktop/yazılım/denemeler/YemekTarifi/YemekTarifi/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-8rsdi8rpqi

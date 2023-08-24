@@ -1,0 +1,40 @@
+﻿@model YemekTarifi.Models.DB.Kategoriler
+
+@{
+    ViewData["Title"] = "Delete";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Sil</h1>
+
+<h3>Silmek istediğine emin misin?</h3>
+<div>
+    <h4>Kategoriler</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Ad)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Ad)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Adet)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Adet)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Resim)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Resim)
+        </dd>
+    </dl>
+    
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="KategoriId" />
+        <input type="submit" value="Sil" class="btn btn-danger" /> |
+        <a asp-action="Index">Listeye Geri Dön</a>
+    </form>
+</div>

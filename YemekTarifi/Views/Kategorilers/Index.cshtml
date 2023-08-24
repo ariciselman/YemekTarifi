@@ -1,0 +1,52 @@
+﻿@model IEnumerable<YemekTarifi.Models.DB.Kategoriler>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Kategoriler</h1>
+
+<p>
+    <a asp-action="Create">Yeni Oluştur</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Ad)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Adet)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Resim)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Ad)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Adet)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Resim)
+            </td>
+            <td>
+                    <div class="button-container">
+                        <a class="btn btn-danger" asp-action="Edit" asp-route-id="@item.KategoriId">Düzenle</a>
+                        <a class="btn btn-primary" asp-action="Details" asp-route-id="@item.KategoriId">Detaylar</a>
+                        <a class="btn btn-dark" asp-action="Delete" asp-route-id="@item.KategoriId">Sil</a>
+                    </div> 
+                 
+                
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

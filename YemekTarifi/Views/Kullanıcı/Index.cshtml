@@ -1,0 +1,43 @@
+﻿
+@model IEnumerable<YemekTarifi.Models.DB.Kullanıcı>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/UyeGiris.cshtml";
+}
+<link href="~/css/styles.css" rel="stylesheet" />
+<div class="giris">
+  
+        
+
+    <div class="form">
+        <form class="kayit">
+            <h2>Yeni Üyelik Oluştur</h2>
+            <input type="text" placeholder="Adınız" />
+            <input type="password" placeholder="Şifreniz" />
+            <input type="text" placeholder="Mail Adresiniz" />
+            <button>Oluştur</button>
+            <p class="mesaj">Zaten Üye Misin? <a href="#">Giriş Yap</a></p>
+        </form>
+        <form class="giris-from">
+            <h2>Giriş Yapın</h2>
+            <input type="text" placeholder="Adınız" />
+            <input type="password" placeholder="Şifreniz" />
+            <button>Giriş Yap</button>
+            <p class="mesaj">Üye Değil Misin? <a href="#">Hesap Oluştur</a></p>
+        </form>
+        <div class="social-login" style="text-align: center;">
+            <h5>Diğer Giriş Yöntemleri</h5>
+            <a href="https://www.facebook.com">
+                <img width="31" height="31" src="https://mn.nytcdn.com/wp-content/themes/nytheme/dist/assets/img/svg/facebook(1).svg" alt="facebook" data-lazy-loaded="true">
+            </a>
+            <a href="https://myaccount.google.com/?hl=tr ">
+                <img width="31" height="31" src="https://mn.nytcdn.com/wp-content/themes/nytheme/dist/assets/img/svg/google.svg" alt="google" data-lazy-loaded="true">
+            </a>
+        </div>
+
+    </div><
+        
+</div>
+
+

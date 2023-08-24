@@ -1,0 +1,61 @@
+﻿@model IEnumerable<YemekTarifi.Models.DB.GununYemegi>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Günün Yemeği</h1>
+
+<p>
+    <a asp-action="Create">Yeni Oluştur</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Ad)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Malzemeler)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Tarif)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Tarih)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Yemek)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Ad)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Malzemeler)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Tarif)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Tarih)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Yemek.YemekId)
+            </td>
+
+                <div class="button-container">
+                    <a class="btn btn-danger" asp-action="Edit" asp-route-id="@item.GununYemegiId">Düzenle</a>
+                    <a class="btn btn-primary" asp-action="Details" asp-route-id="@item.GununYemegiId">Detaylar</a>
+                    <a class="btn btn-dark" asp-action="Delete" asp-route-id="@item.GununYemegiId">Sil</a>
+                </div>
+        </tr>
+}
+    </tbody>
+</table>

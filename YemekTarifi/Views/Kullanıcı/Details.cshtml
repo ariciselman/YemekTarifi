@@ -1,0 +1,43 @@
+﻿@model YemekTarifi.Models.DB.Kullanıcı
+
+@{
+    ViewData["Title"] = "Details";
+    Layout = "~/Views/Shared/UyeGiris.cshtml";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>Kullanıcı</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.KullanıcıAdı)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.KullanıcıAdı)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Eposta)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Eposta)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Sifre)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Sifre)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.AdminMi)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.AdminMi)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model?.KullanıcıId">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>

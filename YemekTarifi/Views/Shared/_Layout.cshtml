@@ -1,0 +1,143 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title - Yemek Tarifleri</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    @RenderSection("Styles", required: false)
+
+</head>
+<body>
+    
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        
+        <div class="container">
+            <a class="navbar-brand" href="/">Yemek Tarifleri</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            @using (Html.BeginForm("Ara", "Home", FormMethod.Get))
+            {
+                <div class="form-inline my-2 my-lg-0 ml-auto">
+                    <input class="form-control mr-sm-2" type="text" name="aranacak_kelime" placeholder="Tarif Ara" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Ara</button>
+                </div>
+            }
+                <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="Home">Anasayfa</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <button class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Kategoriler
+                        </button>
+
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                            <button class="dropdown-item" href="" type="button">Et Yemekleri</button>
+                            <button class="dropdown-item" href="#" type="button">Tatlılar</button>
+                            <button class="dropdown-item" href="#" type="button">Çorba Tarifleri</button>
+                            <button class="dropdown-item" href="#" type="button">Dolma-Sarma Tarifleri</button>
+                            <button class="dropdown-item" href="#" type="button">Kahvaltılık</button>
+                            <button class="dropdown-item" href="#" type="button">Sebze Yemekleri</button>
+                            <button class="dropdown-item" href="#" type="button">Salatalar</button>
+                            <button class="dropdown-item" href="#" type="button">Makarnalar </button>
+                            <button class="dropdown-item" href="#" type="button">Diyet Yemekleri</button>
+
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Yemeklers">Tarif Ekle</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="GununYemegis">Günün Yemeği</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="kullanıcı">Giriş Yap/Kayıt Ol</a>
+                    </li>
+                    
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+
+
+    <div class="container mt-4">
+        @RenderBody()
+    </div>
+
+    <!-- Footer Start -->
+    <div class="container-fluid bg-dark text-light footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeIn;">
+        <div class="container py-5">
+            <div class="row g-5">
+
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="section-title ff-secondary text-start text-primary fw-normal mb-4">İletişim</h4>
+
+                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>0 364 345 67890</p>
+                    <p class="mb-2"><i class="fa fa-envelope me-3"></i>yemektarifi@gmail.com</p>
+                    
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <a class="border-bottom" href="#">Hakkımızda</a>
+                    <br>   <br> <a class="border-bottom" href="#">Çerez Politikası</a> <br /><br />
+                    <a class="border-bottom" href="#">Kullanım Koşulları</a> 
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="section-title ff-secondary text-start text-primary fw-normal mb-4">Sosyal Medya Hesaplarımız</h4>
+                    
+                <div class="d-flex pt-2">
+                     <a href="https://www.instagram.com/mselmanarici/">
+                     <img width="31" height="31" src="https://mn.nytcdn.com/wp-content/themes/nytheme/dist/assets/img/png/instagram.png" alt="instagram" data-lazy-loaded="true">
+                     </a>
+                     <a href="https://twitter.com/mselmanarici">
+                     <img width="31" height="31" src="https://mn.nytcdn.com/wp-content/themes/nytheme/dist/assets/img/svg/twitter(1).svg" alt="twitter" data-lazy-loaded="true">
+                     </a>
+                     <a href="https://www.facebook.com/ariciselman">
+                     <img width="31" height="31" src="https://mn.nytcdn.com/wp-content/themes/nytheme/dist/assets/img/svg/facebook(1).svg" alt="facebook" data-lazy-loaded="true">
+                     </a>
+                     <a href="https://www.youtube.com/channel/UC-y2lYNadGW_P3KinCTbVPA  ">
+                     <img width="31" height="31" src="https://mn.nytcdn.com/wp-content/themes/nytheme/dist/assets/img/svg/youtube(1).svg" alt="youtube" data-lazy-loaded="true">
+                     </a>
+                 </div>
+                      
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="copyright">
+                <div class="row">
+                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                        © <a class="border-bottom" href="#">YemekTarifi</a> tüm hakları saklıdır.
+
+                        <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+                        
+                        
+                    </div>
+                    <div class="col-md-6 text-center text-md-end">
+                        <div class="footer-menu">
+                            <a href="home">Ana Sayfa</a>
+                            <a href="Yemeklers">Tarif Ekle</a>
+                            <a href="GununYemegi">Günün Yemeğis</a>
+                            <a href="">Giriş Yap/Kayıt Ol</a>
+                           
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+    
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    @RenderSection("Scripts", required: false)
+    
+
+</body>
+</html>
